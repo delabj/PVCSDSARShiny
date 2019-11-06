@@ -112,7 +112,6 @@ ui <- navbarPage("Annual Report Charts:",
                                      )))
 )
 
-# Define server logic required to draw a histogram
 server <- function(input, output) {
     
     #### Custom Theme ####
